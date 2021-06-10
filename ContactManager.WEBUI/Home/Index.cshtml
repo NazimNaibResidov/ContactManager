@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<<table id="example" class="table table-striped table-bordered dt-responsive nowrap" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+
+
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Salary</th>
+            <th>Married</th>
+            <th>DateofBirth</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+</table>
+
+@section scripts{
+    <script src="https://cdn.datatables.net/plug-ins/1.10.25/dataRender/datetime.js"></script>
+    <script src="~/core/Core.js" asp-append-version="true"></script>
+}

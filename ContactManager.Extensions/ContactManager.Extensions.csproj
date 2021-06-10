@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="27.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.7" />
+    <PackageReference Include="TinyCsvParser" Version="2.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ContactManager.DTO\ContactManager.DTO.csproj" />
+    <ProjectReference Include="..\ContactManager.Entitys\ContactManager.Entitys.csproj" />
+    <ProjectReference Include="..\ContactManager.Repostory\ContactManager.Repostorys.csproj" />
+    <ProjectReference Include="..\ContactManager.UnitOf\ContactManager.UnitOf.csproj" />
+  </ItemGroup>
+
+</Project>

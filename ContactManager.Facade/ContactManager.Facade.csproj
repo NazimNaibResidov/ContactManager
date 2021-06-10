@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ContactManager.DTO\ContactManager.DTO.csproj" />
+    <ProjectReference Include="..\ContactManager.Entitys\ContactManager.Entitys.csproj" />
+    <ProjectReference Include="..\ContactManager.Services\ContactManager.Services.csproj" />
+  </ItemGroup>
+
+</Project>
