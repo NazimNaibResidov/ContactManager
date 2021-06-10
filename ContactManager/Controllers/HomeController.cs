@@ -151,7 +151,7 @@ namespace ContactManager.Controllers
             }
             catch (Exception ex)
             {
-                throw;
+                return Json("data not exists");
             }
 
         }
